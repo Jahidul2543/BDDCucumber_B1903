@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="25.949463">
+<testcase classname="Login feature" name="Login with invalid credentials" time="6.209294">
+<system-out><![CDATA[Given User need to be in the sign in page...................................passed
+When Login in with invalid email and password...............................passed
+Then User shall not be allowed to login, error message shown................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Login with invalid credentials" time="4.985761">
+<system-out><![CDATA[Given User is in login page.................................................passed
+When Enter invalid email and password from Data Table.......................passed
+Then Error message appear...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login login_using_scenerio_outline" name="Login with invalid credentials" time="4.622174">
+<system-out><![CDATA[Given User has to be in log in page.........................................passed
+When Try log in by invalid "abcd@gmail.com" and "MrABCD"....................passed
+Then Unable to log in.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login login_using_scenerio_outline" name="Login with invalid credentials 2" time="5.055894">
+<system-out><![CDATA[Given User has to be in log in page.........................................passed
+When Try log in by invalid "mrsabcd@gmail.com" and "MrsABCD"................passed
+Then Unable to log in.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login login_using_scenerio_outline" name="Login with invalid credentials 3" time="5.07634">
+<system-out><![CDATA[Given User has to be in log in page.........................................passed
+When Try log in by invalid "xyz@gmail.com" and "xyz"........................passed
+Then Unable to log in.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
